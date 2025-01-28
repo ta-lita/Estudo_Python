@@ -49,3 +49,19 @@ plt.title("Crescimento da população brasileira 1980 a 2016")
 plt.xlabel("Ano")
 plt.ylabel("População x100.000.000")
 plt.show()
+
+#Boxplot - Visualização de dados por quartil
+import matplotlib.pyplot as plt
+import random
+
+vetor = []
+
+for i in range(100):
+  numero_aleatorio = random.randint(0,10)
+  vetor.append(numero_aleatorio)
+
+plt.boxplot(vetor)
+plt.title("Boxplot")
+plt.xlabel("Variáveis")
+plt.ylabel("Valores")
+plt.show()
