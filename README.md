@@ -1,1 +1,2 @@
-Local destinado para o estudo de Python 
+#Estudo de Python
+Repositório completo para estudo de alguns conceitos e fundamentos em python 
